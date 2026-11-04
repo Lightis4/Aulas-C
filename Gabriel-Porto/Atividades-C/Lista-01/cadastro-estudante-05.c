@@ -4,7 +4,7 @@ int main (void) {
     double nota;
     int idade;
     printf ("Digite a inicial do seu nome: ");
-    scanf (" %s\n", inicial_home);
+    scanf ("%s", inicial_home);
     printf ("Digite sua nota: ");
     scanf ("%lf", &nota);
     printf ("Digite sua idade: ");
