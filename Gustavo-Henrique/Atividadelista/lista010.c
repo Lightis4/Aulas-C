@@ -6,12 +6,14 @@ Solicite nome, idade, matrícula e três notas. Calcule a média e apresente um 
 
 int main(void){
 
-    float nota1, nota2, nota3, media;
-    char nome [100] = "";
-    int idade, matricula;
+float nota1, nota2, nota3, media;
+char nome [100];
+int idade, matricula;
+
+printf("========[SISTEMA DA CADASTRO ACADEMICO]========\n");
 
     printf("Digite seu nome: ");
-    scanf("%s", &nome);
+    scanf("%99s", &nome);
 
     printf("Digite sua idade: ");
     scanf("%d", &idade);
@@ -33,7 +35,9 @@ int main(void){
     printf("Seu nome e %s\n"
     "Voce tem %d anos\n"
     "Sua matricula e %d\n"
-    "Sua media foi %.1f", nome, idade, matricula, media);
+    "Sua media foi %.1f\n", nome, idade, matricula, media);
+
+printf("========[FIM DO SISTEMA DE CADASTRO]========");
 
 return 0;
 }

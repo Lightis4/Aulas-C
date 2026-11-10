@@ -8,6 +8,8 @@ int main(void){
 
 float salario, bonus, soma;
 
+printf("========[CALCULADORA DE SALARIO]========\n");
+
     printf("Digite o seu salario: ");
     scanf("%f", &salario);
 
@@ -16,7 +18,9 @@ float salario, bonus, soma;
 
     soma = (salario + bonus);
 
-    printf("O calculo do seu salario + o bonus e %.2f", soma);
+    printf("O calculo do seu salario + o bonus e %.2f\n", soma);
+
+printf("========[FIM DA CALCULADORA]========");
 
 return 0;
 }
