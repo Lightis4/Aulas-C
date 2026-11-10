@@ -1,0 +1,15 @@
+/*
+Questão 01 — Primeiro programa
+Crie um programa que exiba no terminal as mensagens : “Ola, mundo !” e “Estou aprendendo a programar em C.”
+*/
+
+#include<stdio.h>
+
+int main(void){
+        
+    printf("Ola mundo\n");
+
+    printf("Eu estou aprendendo a programar e sou burro...KKKKKKKKKKKKKKK");
+
+return 0;
+}
