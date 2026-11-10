@@ -10,12 +10,16 @@ int main(void){
 int anoatual = 2026;
 int anodenascimento, idade;
 
+printf("========[CALCULADORA DE IDADE]========\n");
+
     printf("Digite seu ano de nascimento: ");
     scanf("%d", &anodenascimento);
 
     idade = (anoatual - anodenascimento);
 
     printf("Sua idade atual e %d anos", idade);
+
+printf("========[FIM DA CALCULADORA]========");
 
 return 0;
 }

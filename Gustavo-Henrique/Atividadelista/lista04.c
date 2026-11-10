@@ -10,7 +10,7 @@ float nota1 = 8.5f;
 double nota2 = 8.45;
 
     printf("Sua primeira nota foi: %.2f\n"
-        "Sua segunda nota foi: %.2lf",
+        "Sua segunda nota foi: %.2f",
          nota1, nota2);
 
 return 0;

@@ -12,6 +12,8 @@ int idade = 19;
 char curso [24]= "Ciencias da Computacao";
 char local [10] = "Uninassau";
 
+printf("========[APRESENTACAO PESSOAL]========\n");
+
     printf("Seu nome e %s\n"
        "Sua idade e %d\n"
        "Seu curso e %s\n"

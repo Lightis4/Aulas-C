@@ -10,6 +10,8 @@ int idade;
 char nome;
 float nota;
 
+printf("========[CADASTRO ESTUDANTIL]========\n");
+
     printf("Digite a inicial do seu nome: ");
     scanf("%c", &nome);
 
@@ -21,8 +23,10 @@ float nota;
 
     printf("Sua inicial e %c\n"
         "Sua idade atual e %d\n"
-        "Sua nota foi %.1f",
+        "Sua nota foi %.1f\n",
         nome, idade, nota);
 
-    return 0;
+printf("========[FIM DO CADASTRO]========");
+
+return 0;
 }
