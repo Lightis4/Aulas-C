@@ -12,7 +12,7 @@ int main(void) {
     if (media >= 7) {
         printf("Aprovado.");
     }
-  else if (media < 7 && media >= 0) {
+    else if (media < 7 && media >= 0) {
         printf("Reprovado\n");
     }
     else {
