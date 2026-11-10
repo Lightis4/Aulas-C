@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main(void) {
     char nome[100];
     int idade;
     int matricula;
