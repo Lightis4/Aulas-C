@@ -12,7 +12,7 @@ int main(void){
     printf("Digite o segundo numero: ");
     scanf("%d", &n2);
 
-    printf("A soma de n1 + n2 é: %d", n1 + n2);
+    printf("A soma de n1 + n2 e: %d", n1 + n2);
 
     return 0;
 }
