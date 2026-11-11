@@ -1,5 +1,5 @@
-//Questão 11 — Sistema de aprovação acadêmica
-//Solicite três notas e calcule a média aritmética. Média ≥ 7: Aprovado; média ≥ 5 e < 7: Recuperação; média < 5: Reprovado. Valide notas de 0 a 10.
+/*Questão 11 — Sistema de aprovação acadêmica
+Solicite três notas e calcule a média aritmética. Média ≥ 7: Aprovado; média ≥ 5 e < 7: Recuperação; média < 5: Reprovado. Valide notas de 0 a 10.*/
 
 #include <stdio.h>
 
