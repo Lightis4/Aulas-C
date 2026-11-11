@@ -5,12 +5,8 @@ int main (void) {
     char multiplicacao = '*';
     char divisao = '/';
     char escolha_simbolo;
-    int soma_entrada_1_2;
-    int subtracao_entrada_1_2;
-    int multiplicao_entrada_1_2;
-    int divisao_entrada_1_2;
-    int numero_entrada_1;
-    int numero_entrada_2;
+    int soma_entrada_1_2, subtracao_entrada_1_2, multiplicao_entrada_1_2, divisao_entrada_1_2;
+    int numero_entrada_1, numero_entrada_2;
     printf ("Digite um numero inteiro aleatorio: ");
     if (scanf ("%d", &numero_entrada_1) != 1) {
         printf ("Entrada Invalida, verifique o tipo primitivo digitado");
