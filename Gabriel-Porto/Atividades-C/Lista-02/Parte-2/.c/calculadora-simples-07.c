@@ -1,10 +1,6 @@
 #include <stdio.h>
 int main (void) {
-    char soma = '+';
-    char subtracao = '-';
-    char multiplicacao = '*';
-    char divisao = '/';
-    char escolha_simbolo;
+    char soma = '+', subtracao = '-', multiplicacao = '*', divisao = '/', escolha_simbolo;
     int soma_entrada_1_2, subtracao_entrada_1_2, multiplicao_entrada_1_2, divisao_entrada_1_2;
     int numero_entrada_1, numero_entrada_2;
     printf ("Digite um numero inteiro aleatorio: ");
