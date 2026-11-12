@@ -1,0 +1,52 @@
+//Principais tipos em C e C++
+//Tipo Finalidade
+
+//Exemplo
+
+//int = Números inteiros
+//int idade = 20;
+
+//float = Números reais em precisão simples
+//float altura = 1.75f;
+
+//double = Números reais em precisão dupla
+//double media = 8.5;
+
+//char=Um caractere básico
+//char letra = 'A';
+
+//bool = Valores lógicos em C++
+//bool aprovado = true;
+
+//Em C, o tipo lógico pode ser utilizado com #include <stdbool.h> nas versões anteriores ao C23; em C23, bool, true e false fazem parte da linguagem.
+
+//Análise didática: em C, %c, %d e %f são especificadores de formato utilizados com printf. Em C++, std::cout permite combinar textos e valores com <<. Em Python, f-strings facilitam a interpolação de valores.
+
+
+
+
+//Compilar e executar os programas
+//No terminal integrado do VS Code, execute os comandos a partir da pasta raiz do projeto.
+
+//C: gcc C/hello.c -o C/hello.exe
+//.\C\hello.exe
+
+//C++: g++ CPP/hello.cpp -o CPP/hello.exe
+//.\CPP\hello.exe
+
+//Python:
+//python Python/hello.py
+//Saída esperada nos três casos:
+
+
+
+
+//terminal
+
+//cd "Ana-Jamily\Linguagem_em_C\Atividade_C" (encontrar a pasta correta)
+//gcc Cadastro.c -o programa.exe (copiar o ficheiro)
+//.\programa.exe
+
+//Em c++
+//g++ nome_do_ficheiro.cpp -o programa.exe
+//.\programa.exe
